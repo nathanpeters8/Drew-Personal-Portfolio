@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Heading() {
   return (
     <div className='row justify-content-center'>
-      <div className='col-12 mt-2 mb-3'>
+      <div className='col-12 mt-3 mb-3'>
         <h1>Drew Peters</h1>
       </div>
       <div className='social-links col-12 h2 d-flex justify-content-center gap-5'>

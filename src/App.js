@@ -1,6 +1,11 @@
 import './App.css';
 import NavBar from './Components/NavBar';
 import Heading from './Components/Heading';
+import AboutMe from './Components/AboutMe';
+import Photography from './Components/Photography';
+import NewsPackages from './Components/NewsPackages';
+import Stories from './Components/Stories';
+
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -19,10 +24,10 @@ function App() {
           <NavBar />
           <Routes>
             <Route path='/' element={<Heading />} />
-            <Route path='/about' element={<h1>About Me</h1>} />
-            <Route path='/photography' element={<h1>Photography</h1>} />
-            <Route path='/news' element={<h1>News Packages</h1>} />
-            <Route path='/stories' element={<h1>Latest Stories</h1>} />
+            <Route path='/about' element={<AboutMe />} />
+            <Route path='/photography' element={<Photography />} />
+            <Route path='/news' element={<NewsPackages />} />
+            <Route path='/stories' element={<Stories />} />
             <Route path='/contact' element={<h1>Contact</h1>} />
           </Routes>
         </div>
