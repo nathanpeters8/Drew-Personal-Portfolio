@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar';
+import Heading from './Components/Heading';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+
+
+library.add(faLinkedin, faTwitter);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='container-xxl'>
+        <NavBar />
+        <Heading />
+      </div>
     </div>
   );
 }
