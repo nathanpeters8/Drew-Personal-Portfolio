@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.aspectRatioBox {
+  padding-top: calc(2/3 * 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  transition: opacity 1s ease;
+}
