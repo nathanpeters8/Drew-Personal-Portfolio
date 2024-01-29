@@ -4,22 +4,75 @@ function AboutMe() {
   return (
     <div className='container'>
       <h1 className='mt-3'>About Me</h1>
-      <div className="row mt-5">
-        <div className="col-12">
+      <div className='row mt-5'>
+        <div className='skills col-12 mb-5'>
           <h3>Skills</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque corporis assumenda consequuntur fugiat est sunt impedit, deleniti magni iste autem hic, vitae necessitatibus modi cumque sint vero quo dignissimos quas!</p>
+          <hr />
+          <div className='row'>
+            <div className='col-6 col-md-3 d-flex flex-column'>
+              <ul className='list-unstyled'>
+                <li>Customer service</li>
+                <li>Time management</li>
+                <li>Hard working</li>
+                <li>Teamwork oriented</li>
+              </ul>
+            </div>
+            <div className='col-6 col-md-3 d-flex flex-column'>
+              <ul className='list-unstyled'>
+                <li>Strong communication</li>
+                <li>AP Writing</li>
+                <li>Fact checking</li>
+                <li>Story Editing</li>
+              </ul>
+            </div>
+            <div className='col-6 col-md-3 d-flex flex-column'>
+              <ul className='list-unstyled'>
+                <li>Public Relations</li>
+                <li>Organized</li>
+                <li>Video production</li>
+                <li>Photography</li>
+              </ul>
+            </div>
+            <div className='col-6 col-md-3 d-flex flex-column'>
+              <ul className='list-unstyled'>
+                <li>Adobe CC</li>
+                <li>Video editing</li>
+                <li>Work calmly under deadlines</li>
+                <li>Social media management</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="col-6">
+        <div className='col-6'>
           <h3>Education</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis error saepe rerum eligendi perspiciatis placeat dolores earum esse quos maiores neque inventore asperiores corporis, eum quo voluptate libero magni?
-          Saepe optio asperiores deleniti magnam quam libero corporis, autem vitae, ipsum delectus architecto provident expedita, fugiat tempore aut minus accusantium! Tenetur in quia veritatis facere at ex cum sit numquam.
-          Pariatur excepturi quia voluptatum aliquid quaerat corrupti aperiam et, repellat vitae. Repudiandae optio accusantium facere, asperiores reprehenderit, similique, inventore suscipit maiores explicabo ut quos adipisci aut magnam facilis recusandae quis.</p>
+          <hr />
+          <div>
+            <h4 className='text-decoration-underline'>B.A Journalism and Media Studies</h4>
+            <h5>University of Northern Colorado</h5>
+            <h6>
+              <small className='fw-light fst-italic'>(Aug 2020 - Aug 2024)</small>
+            </h6>
+            <p className='lh-sm pt-2'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perspiciatis porro dignissimos quis
+              expedita ducimus non, ex, qui at odio similique sint optio cupiditate. Aliquam doloremque repudiandae est
+              quae iure?
+            </p>
+          </div>
         </div>
-        <div className="col-6">
+        <div className='col-6'>
           <h3>Experience</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas illum eligendi facilis tenetur at suscipit! Eius, nobis nihil corporis itaque qui, doloribus asperiores vel similique sunt, maiores facere omnis vero.
-          Quasi impedit quisquam aut quam odio ullam accusantium ipsa dolorem assumenda deserunt recusandae architecto mollitia incidunt illum voluptas error quaerat, placeat inventore ut itaque neque veritatis ipsam earum! Corrupti, autem?
-          Minus placeat molestiae et asperiores rem ipsa beatae ducimus nulla quos? Provident hic voluptatem eum nesciunt optio reprehenderit itaque, porro amet tenetur animi, beatae dolores iste nulla dolorem similique unde.</p>
+          <hr />
+          <div>
+            <h4 className='text-decoration-underline'>Public Relations Intern</h4>
+            <h5>University of Northern Colorado Athletics</h5>
+            <h6>
+              <small className='fw-light fst-italic'>(Sept 2022 - Dec 2022)</small>
+            </h6>
+            <p className='lh-sm pt-2'>
+              Wrote meet previews for UNC cross country, live tweeted football and volleyball games, and took photos for
+              women&#39;s basketball.
+            </p>
+          </div>
         </div>
       </div>
     </div>
